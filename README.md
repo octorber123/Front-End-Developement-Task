@@ -1,58 +1,37 @@
-# BJS-Developement-Task            
-src="C:\Users\octor\Downloads\BJS Development Task Pack\MDB5-STANDARD-UI-KIT-Free-3.10.1\img\first_image.png"
+# BJS-Developement-Task  
 
+## Use
+- please clone this project and open it locally, an attempt was made to put it on heroku but for some reason the animations stopped working
 
-use rem instead of px for size
-imported evelen clean and     erical weight doesnt seem to work
-unable to streach the image to make it fully blck, i think its beucase of the 100% width of the image container, this makes may make it impossible to make it bigger
-cant add gradient to image for 4th slide
-had to edit image since bg was white instead of blue on 2
-
-
-havent added indicators
-no shadow to carousel nav bar
-not added nav bar lines 
-arrows on slide cant change colour instead the bg changes colour
-boring animation on slides
-realised later only used divs
-havent put any js for animation changes or color changes of 
-
-## Heroku link 
-- Please read the Errors section, before going on the link.
-- https://larafavouritemovies.herokuapp.com/
-
-## Setup/Use:
+## Functionality:
 - shows a working slide carousel
-- adequet comments and indentation in html and css file - improve readibility
-- 
+- the work is very similar to the example
+- adequet comments, indentation and followed good practises (the ones i knew) in html and css file to improve code readibility.
+- carousel can be navigated by arrows or the nav bar
+- when the user hovers and clicks on the carousel nav bar it is highlighted 
+- when the user hovers over the slide navigation arrows its background is highlighted 
+- had to remove white background from image 2 so that i could blend it into slide 2 background colour
 
 ## Technologies:
 - Languages : HTML, CSS
 
-## Functionality:
-#### users can:
-- login
-- add and remove movies
-- do a show more about a movie (see more details of a movie)
-- can see all favourites 
-- unauthenticated users cannot access user views
-#### other functionality
-- adequte error reporting , all redirects have status/error messages
-- use of layouts
-- use of bootstrap to make application responsive
-- use of css to make web app simple and minimalistic
+## Struggles
+- I added a gradient to the background in slide 4 so that the image could blend into the background, but i coudlnt recreate the example. I also tried adding the gradient to the image, but with no luck :(
+- when user hovers over carousel navigation arrows the background changes. i couldnt recreate the example given
 
-## Things i missed/ need to be imroved:
+## Errors
+- imported and applied Evelen clean and Gotham book, but didnt look the same as example - i tried many times
+- on slide 3 i was unable to streach the image to fill the slide container, i think its beucase of the 100% width of the image container.
+
+## Things i missed/ need to be improved:
 #### Code
 - carousel is not resposive, since no bootstrap responsive methods have been used
+- realised later that i only used divs - bad for browser as it doent know what the div has
 - used px instead or rem or percentages - bad for responsiveness
-- 
+- didnt get time to use js to make animated carousel arrows
 #### Design
-
-## Struggles
-i attemped to fix the heroku app, however i found myself not knowing where to begin, alot of the documentation seems to be very vague and chat room solutions have not worked. As a final resort i have contacted laracasts and join a laravel discord server to hopefully find someone that can help.
-
-## Security concerns
-- the add movie form had not been html sanitised to remove potential code injection
-- the field has not been type checked to ensure that the ID entered is in the OMDB format - will allow users to add all kinds of inputs potentially breaking the favorites list
-- also no character limit has been put in the add movie id input variable - will allow users to add all kinds of inputs potentially breaking the favorites list/ causing an error
+- no shadow added to carousel nav bar
+- not added nav bar lines 
+- only simple animation on slide transition
+- havent put an indicator to highlight the slide the user is viewing
+- all bullet points are the same colour
