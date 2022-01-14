@@ -1,15 +1,17 @@
 # Front-End-Developement-Task  
+- This is a simple front end project, which shows a content slide carousel created using HTML5, CSS3 and Bootstrap5 only.
+- Time Taken to complete : 12 hours
 ## Website Link
-- https://construction-front-end-task.000webhostapp.com/
+- Website: https://construction-front-end-task.000webhostapp.com/
 
 ## Technologies:
 - Languages : HTML5, CSS3, Bootstrap5
 
 ## Functionality:
-- shows a working slide carousel
-- the work is very similar to the example given
-- adequet comments, indentation and followed good practises (the ones i knew) in html and css file to improve code readibility.
+- shows a working content slide carousel.
+- each slide has been composed by code, Therefore their contents can be easily edited
+- adequet comments, indentation and followed good coding practises to improve code readibility.
+#### UI elements
 - carousel can be navigated by arrows or the nav bar
 - when the user hovers and clicks on the carousel nav bar it is highlighted 
 - when the user hovers over the slide navigation arrows its background is highlighted 
-- [side note] had to remove the white background from the image for slide 2, it had to be done so it could blend into the background colour
