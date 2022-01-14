@@ -15,3 +15,12 @@
 - carousel can be navigated by arrows or the nav bar
 - when the user hovers and clicks on the carousel nav bar it is highlighted 
 - when the user hovers over the slide navigation arrows its background is highlighted 
+
+## Things i will improve:
+#### Code
+- currently carousel is not resposive, as no bootstrap responsive methods have been used 
+- code needs to be refactored to replace divs with appropriate tags, this is to allow the browser to understand the webpage during compiling.
+- need to use rem and percentage instead of px in CSS to improve responsive design
+#### UI elements
+- only simple animation on slide transition
+- Havent put an indicator to inform the viewer the slide they are viewing
