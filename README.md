@@ -13,7 +13,7 @@
 - had to remove white background from image 2 so that i could blend it into slide 2 background colour
 
 ## Technologies:
-- Languages : HTML, CSS
+- Languages : HTML5, CSS3, Bootstrap5
 
 ## Struggles
 - I added a gradient to the background in slide 4 so that the image could blend into the background, but i coudlnt recreate the example. I also tried adding the gradient to the image, but with no luck :(
