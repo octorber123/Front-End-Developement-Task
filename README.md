@@ -1,5 +1,5 @@
 # Front-End-Developement-Task  
-- This is a simple front end project, which shows a content slide carousel created using HTML5, CSS3 and Bootstrap5 only.
+- This is a simple front end project, which shows a dynamic content slide carousel created using HTML5, CSS3 and Bootstrap5 only.
 ## Website Link
 - Website: https://construction-front-end-task.000webhostapp.com/
 
